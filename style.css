@@ -1,0 +1,736 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #f9f9fa;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container-pai {
+    display: flex;
+    background-color: #7aafdb;
+    height: 100px;
+    position: absolute;
+}
+
+#logo {
+    width: 100%;
+    max-width: 100px;
+    padding: 3px 10px 0px 10px;
+}
+
+.nav-items {
+    position: absolute;
+    right: 50px;
+    top: 45px;
+}
+
+.nav-items ul {
+    display: flex;
+    text-transform: uppercase;
+    font-size: 25px;
+    list-style: none;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #f9f9fa;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.nav-items a:hover {
+    color: #e2e9f4;
+}
+
+.barra {
+    bottom: 20px;
+    margin-top: 35px;
+    margin-right: 625px;
+}
+
+.barra input[type="text"] {
+    width: 570px;
+    height: 57px;
+    margin-left: 60px;
+    padding-left: 10px;
+    border: none;
+}
+
+.pesquisar {
+    position: absolute;
+    cursor: pointer;
+    font-size: 21px;
+    padding: 16px;
+    right: 503px;
+    top: 35px;
+    color: #f9f9fa;
+    background-color: #227bc4;
+    transition: 0.4s;
+    border: none;
+}
+
+.pesquisar:hover {
+    color: #227bc4;
+    background-color: #f9f9fa;
+    border-left: 1px solid #227bc4;
+}
+
+#casal_praia {
+    display: flex;
+    background-image: url("imagens/casal\ na\ praia.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 17rem;
+    margin-bottom: 20px;
+}
+
+#casal_praia h1,
+#casal_praia p {
+    text-align: center;
+    color: #f9f9fa;
+}
+
+#casal_praia p {
+    font-size: 25px;
+}
+
+/* section ( conteúdo principal )*/
+.container-papai {
+    display: flex;
+}
+
+section {
+    margin-left: 35px;
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 22px;
+    font-size: 30px;
+}
+
+.capas {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.capa {
+    width: 300px;
+    height: 440px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.comprar {
+    display: flex;
+}
+
+.compre {
+    margin-left: 15px;
+    width: 650px;
+    height: 440px;
+    text-align: center;
+    border: 2px solid #3390dc;
+    border-radius: 25px;
+    background-color: rgb(249, 255, 255);
+    color: #062c4b;
+}
+
+.valor label {
+    display: block;
+    margin: 12px;
+    color: #062c4b;
+}
+
+.model-entrega {
+    display: flex;
+    justify-content: center;
+}
+
+.valor .escolha {
+    font-size: 22px;
+}
+
+.valor input[type="radio"] {
+    cursor: pointer;
+}
+
+.valor h1 {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.v-produto {
+    font-size: 26px;
+}
+
+.valor input[type="number"] {
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.quant {
+    display: flex;
+    justify-content: center;
+}
+
+.comprei {
+    cursor: pointer;
+    font-size: 21px;
+    padding: 20px;
+    color: #f9f9fa;
+    background-color: #227bc4;
+    transition: 0.4s;
+    border: #227bc4;
+    margin: 10px;
+}
+
+.comprei:hover {
+    color: #227bc4;
+    background-color: #f9f9fa;
+    border: 1px solid #227bc4;
+}
+
+.around {
+    display: flex;
+    margin-left: 15px;
+}
+
+.around .pag {
+    width: 200px;
+    margin-left: 15px;
+}
+
+.description {
+    max-width: 850px;
+    padding: 35px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.details {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.details h3 {
+    font-size: 25px;
+    margin: 15px;
+    max-width: 600px;
+}
+
+table,
+th,
+td {
+    background-color: #227bc4;
+    width: 825px;
+    height: 30px;
+    text-align: center;
+    color: #f9f9fa;
+    border: 1px solid #f9fafa;
+}
+
+.autor {
+    max-width: 830px;
+    margin-left: 25px;
+    margin-top: 15px;
+    height: auto;
+}
+
+.autor h3 {
+    font-size: 25px;
+    margin: 15px;
+}
+
+.autor p {
+    line-height: 24px;
+    border-bottom: 2px solid #062c4b;
+}
+
+/* Artigos/anúncios */
+.artigo {
+    background-image: url(../Meu_Projeto/img/Blue\ Bookstore.png);
+    background-position: center;
+    background-size: cover;
+    margin: 16px;
+    margin-top: 64px;
+    width: 250px;
+    height: 250px;
+}
+
+.artigo2,
+.artigo3 {
+    margin: 16px;
+    margin-top: 64px;
+    width: 250px;
+    height: 250px;
+    border: 2px solid #3390dc;
+}
+
+.artigo2 {
+    text-align: center;
+    color: #064c6d;
+
+}
+
+.artigo2 p {
+    font-size: 25px;
+    padding: 5px;
+    margin: 5px;
+    color: #062c4b;
+
+}
+
+.artigo2 h2 {
+    color: #062c4b;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+.artigo3 {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.artigo3 h3 {
+    font-size: 36px;
+}
+
+.artigo3 a {
+    line-height: 35px;
+    text-decoration: none;
+    padding-top: 15px;
+    color: #225d8e;
+    transition: 0.7s;
+}
+
+.artigo3 a:hover {
+    color: #3390dc;
+}
+
+/* Números de paginas*/
+#n-pages {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+#n-pages .pages,
+.atual {
+    padding: 15px;
+    width: 25px;
+    text-decoration: none;
+}
+
+.pages a {
+    text-decoration: none;
+    color: black;
+}
+
+.atual a {
+    text-decoration: none;
+    color: #7aafdb;
+}
+
+/* sugestão do cliente*/
+.recomend {
+    text-align: center;
+    background-color: #3390dc;
+    opacity: 5;
+    max-height: 700px;
+}
+
+.recomend label {
+    display: block;
+    color: #f9f9fa;
+}
+
+.recomend p {
+    font-size: 20px;
+    color: #f9f9fa;
+}
+
+.recomend h1 {
+    color: #f9f9fa;
+    padding: 20px;
+}
+
+.c1 {
+    display: flex;
+    text-align: center
+}
+
+.recomend .c1 {
+    align-items: center;
+    justify-content: center;
+}
+
+.cliente1 {
+    margin: 15px;
+}
+
+.cliente1 label {
+    padding: 16px;
+}
+
+.c1 input {
+    border: 3px solid;
+}
+
+.cliente textarea {
+    width: 700px;
+    height: 240px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.cliente1 input[type="text"] {
+    font-size: 15px;
+    padding: 20px;
+    transition: 0.4s;
+    border: 1px solid #227bc4;
+}
+
+.cliente1 input[type="email"] {
+    font-size: 15px;
+    padding: 20px;
+    transition: 0.4s;
+    border: 1px solid #227bc4;
+}
+
+.cliente label {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.cliente input[type="submit"] {
+    cursor: pointer;
+    font-size: 21px;
+    padding: 20px;
+    color: #f9f9fa;
+    background-color: #227bc4;
+    transition: 0.7s;
+    border: #227bc4;
+    margin: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border: 1px solid #f9f9fa;
+    border-radius: 5px;
+}
+
+.cliente input[type="submit"]:hover {
+    color: #227bc4;
+    background-color: #f9f9fa;
+    border: 1px solid #f9f9fa;
+}
+
+
+/* Rodapé */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f9fafa;
+}
+
+.footer .contact {
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+}
+
+.contact h5 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.contact p {
+    line-height: 30px;
+}
+
+
+
+/* Responsividade */ 
+/* laptop 1024px */
+
+@media(max-width:1024px){
+    
+    #casal_praia{
+         width: 1024px;
+        background-position: left;
+        background-size: cover;
+    }
+    .container-pai{
+        width: 1024px;
+    }
+    #logo{
+        width: 85px;
+        margin-top: 15px;
+    }
+    .barra {
+        bottom: 20px;
+        margin-top: 35px;
+        margin-right: 625px;
+    }
+    
+    .barra input[type="text"] {
+        width: 270px;
+        height: 50px;
+    }
+    
+.pesquisar {
+    font-size: 21px;
+    padding: 13px;
+    right: 373px; 
+}
+.nav-items {
+    right: 30px;
+    top: 50px;
+}
+
+.nav-items ul {
+    font-size: 20px;
+}
+section {
+    margin-left: 0px;
+}
+.capas {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+.capa {
+    width: 230px;
+    height: 365px;
+}
+.compre {
+    margin-left: 15px;
+    width: 510px;
+    height: 365px;
+}
+.valor .escolha {
+    font-size: 22px;
+}
+.valor h1 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.v-produto {
+    font-size: 18px;
+}
+.comprei {
+    font-size: 21px;
+    padding: 10px;
+    margin: 10px;
+}
+.around .pag {
+    width: 190px;
+    margin-left: 10px;
+}
+.description {
+    font-size: 20px;
+}
+.autor p {
+    font-size: 20px;
+}
+
+.artigo {
+    margin: 16px;
+    margin-top: 34px;
+    width: 125px;
+    height: 125px;
+}
+.artigo2,
+.artigo3 {
+    margin: 16px;
+    margin-top: 34px;
+    width: 125px;
+    height: 125px;
+}
+.artigo2 h1 {
+    font-size: 17px;
+}
+.artigo2 p {
+    font-size: 10px;
+    padding: 0px;
+}
+.artigo2 h2 {
+   font-size: 12px;
+   padding: 0px;
+}
+.artigo3 {
+    height: 430px;
+}
+.artigo3 h3 {
+    font-size: 18px;
+}
+.artigo3 a {
+    line-height: 17px;
+    font-size: 11px;
+}
+   .footer{
+        width: 1024px;
+    }
+    .recomend{
+        width: 1024px;
+    }
+}
+
+
+
+/*tablet */
+@media(max-width:800px){
+    .around .pag {
+        width: 170px;
+        margin-left: 10px;
+    }
+table{
+   
+    width: 725px;
+    height: 30px;
+   
+}
+.description {
+    font-size: 22px;
+}
+.autor p {
+    font-size: 22px;
+}
+
+
+.artigo {
+        margin-right: 30px;
+        margin-top: 34px;
+        width: 175px;
+        height: 175px;
+    }
+    .artigo2,
+    .artigo3 {
+        margin: 16px;
+        margin-top: 34px;
+        width: 175px;
+        height: 180px;
+    }
+    .artigo2 h1 {
+        font-size: 25px;
+    }
+    .artigo2 p {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .artigo2 h2 {
+       font-size: 20px;
+       padding: 0px;
+    }
+    .artigo3 {
+        height: 430px;
+    }
+    .artigo3 h3 {
+        font-size: 28px;
+    }
+    .artigo3 a {
+        line-height: 16px;
+        font-size: 16px;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #f9fafa;
+    }
+    
+    
+    .contact h5 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .contact p {
+       font-size: 23px;
+    }
+    
+
+}
+
+/*celular */
+@media(max-width:450px){
+    .around .pag {
+        width: 170px;
+        margin-left: 10px;
+    }
+table{
+   
+    width: 725px;
+    height: 30px;
+   
+}
+.description {
+    font-size: 22px;
+}
+.autor p {
+    font-size: 22px;
+}
+
+
+.artigo {
+        margin-right: 30px;
+        margin-top: 34px;
+        width: 175px;
+        height: 175px;
+    }
+    .artigo2,
+    .artigo3 {
+        margin: 16px;
+        margin-top: 34px;
+        width: 175px;
+        height: 180px;
+    }
+    .artigo2 h1 {
+        font-size: 25px;
+    }
+    .artigo2 p {
+        font-size: 20px;
+        padding: 0px;
+    }
+    .artigo2 h2 {
+       font-size: 20px;
+       padding: 0px;
+    }
+    .artigo3 {
+        height: 430px;
+    }
+    .artigo3 h3 {
+        font-size: 28px;
+    }
+    .artigo3 a {
+        line-height: 16px;
+        font-size: 16px;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #f9fafa;
+    }
+    
+    
+    .contact h5 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    
+    .contact p {
+       font-size: 23px;
+    }
+}
